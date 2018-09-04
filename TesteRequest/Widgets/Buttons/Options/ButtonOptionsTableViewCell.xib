@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Semibold.otf">
+            <string>SFUIDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="48" id="KGk-i7-Jjw" customClass="ButtonOptionsTableViewCell" customModule="NACardSDK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5f-tb-28e">
+                        <rect key="frame" x="0.0" y="0.0" width="105.5" height="47.5"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Semibold" family="SF UI Display" pointSize="13"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yga-uF-bST">
+                        <rect key="frame" x="105.5" y="0.0" width="108.5" height="47.5"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Semibold" family="SF UI Display" pointSize="13"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe3-Y5-yU3">
+                        <rect key="frame" x="214.5" y="0.0" width="105.5" height="47.5"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Semibold" family="SF UI Display" pointSize="13"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yga-uF-bST" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7He-YT-MNR"/>
+                    <constraint firstItem="yga-uF-bST" firstAttribute="leading" secondItem="A5f-tb-28e" secondAttribute="trailing" id="C0A-3S-BsT"/>
+                    <constraint firstAttribute="bottom" secondItem="Oe3-Y5-yU3" secondAttribute="bottom" id="F5h-0L-ANj"/>
+                    <constraint firstAttribute="bottom" secondItem="A5f-tb-28e" secondAttribute="bottom" id="H6x-X7-RQd"/>
+                    <constraint firstItem="Oe3-Y5-yU3" firstAttribute="leading" secondItem="yga-uF-bST" secondAttribute="trailing" id="HXo-2L-zii"/>
+                    <constraint firstItem="A5f-tb-28e" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.33" id="Leq-C9-c5i"/>
+                    <constraint firstItem="A5f-tb-28e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Mz6-HA-zMa"/>
+                    <constraint firstItem="A5f-tb-28e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TlW-Bi-VL4"/>
+                    <constraint firstAttribute="bottom" secondItem="yga-uF-bST" secondAttribute="bottom" id="Xzp-3u-lu1"/>
+                    <constraint firstItem="Oe3-Y5-yU3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gzZ-Nv-KSi"/>
+                    <constraint firstItem="Oe3-Y5-yU3" firstAttribute="width" secondItem="A5f-tb-28e" secondAttribute="width" id="nZH-8o-zMG"/>
+                    <constraint firstAttribute="trailing" secondItem="Oe3-Y5-yU3" secondAttribute="trailing" id="pOy-0k-Vjb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonCancel" destination="A5f-tb-28e" id="khk-9M-7N3"/>
+                <outlet property="buttonMaybe" destination="yga-uF-bST" id="jIw-kp-fBW"/>
+                <outlet property="buttonOk" destination="Oe3-Y5-yU3" id="h16-Gi-va1"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
